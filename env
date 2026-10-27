@@ -1,0 +1,13 @@
+# ---- Option B: Ollama (default) ----
+LLM_BACKEND=ollama
+OLLAMA_URL=http://localhost:11434
+OLLAMA_MODEL=qwen2.5:0.5b
+
+# ---- Option A: Cloud API (set LLM_BACKEND=cloud) ----
+# CLOUD_BASE_URL=https://router.huggingface.co/v1
+# CLOUD_MODEL=<model id from your provider>
+# CLOUD_API_KEY=<your key - never commit or screenshot>
+
+# ---- Optional tuning ----
+# MAX_DISTANCE=1.2
+# LLM_TIMEOUT=60
